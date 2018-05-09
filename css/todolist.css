@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+.to-do-list {
+    width: 600px;
+    margin: 0 auto;
+}
+.text_decoration {
+    font-family: 'Kalam', "Comic Sans MS", cursive;
+}
+.item {
+    cursor: default;
+}
+.button-add_decoration {
+    background-color: forestgreen;
+    color: white;
+}
+.button-clear_decoration {
+    background-color: crimson;
+    color: white;
+}
+.cross {
+    text-decoration: line-through;
+    color: dimgrey;
+}
+
+.item:nth-child(3n) {
+    color: #1f22dd;
+    background-color: rgba(23, 196, 187, 0.26);
+}

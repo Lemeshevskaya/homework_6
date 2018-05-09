@@ -1,0 +1,19 @@
+.logo__text {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 10px;
+    transform: scaleY(3.5);
+
+}
+.logo_description {
+    margin: 40px auto;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

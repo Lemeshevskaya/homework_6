@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <div id="logo" class="logo_description">
+        <div class="logo__text">art.lebedev</div>
+    </div>
+        <div class="to-do-list">
+            <h1 class="text_decoration">To do list</h1>
+            <div class="field input-group">
+                <input id="task" type="text" class="form-control" placeholder="enter the task" aria-describedby="basic-addon2"/>
+                <div class="input-group-append">
+                    <button id="button-add" type="button" class="btn button-add_decoration">add the task</button>
+                    <button id="button-clear" type="button" class="btn button-clear_decoration">clear the list</button>
+                </div>
+            </div>
+            <ul id="list"></ul>
+            <script src="js/todolist.js"></script>
+            <script src="js/logo.js"></script>
+        </div>
+    </body>
+</html>
